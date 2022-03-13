@@ -8,6 +8,6 @@ const Students = require("./controllers/attempedevalstudents.controllers");
 
 app.use(express.json());
 
-app.use("/Students", Students);
+app.use("/students", Students);
 
 module.exports = app;
